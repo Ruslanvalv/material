@@ -1,0 +1,25 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 54px;
+}
+.Header .Title {
+  border: 1px solid #ffffff;
+  font-weight: 500;
+  padding: 6px;
+}
+.HelpTitle {
+  display: flex;
+  align-items: center;
+  max-width: 147px;
+}
+.HelpTitle svg {
+  margin-right: 10px;
+
+  width: 100%;
+  max-width: 24px;
+}
+.HelpTitle span {
+  padding: 3.33px 0;
+}

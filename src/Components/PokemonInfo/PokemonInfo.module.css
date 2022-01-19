@@ -1,0 +1,44 @@
+.PokemonInfo {
+  background: #000000;
+  width: 100%;
+}
+.Container {
+  height: 100%;
+  padding: 44px;
+  padding-bottom: 16px;
+  color: #a0a0a0;
+}
+
+.Container h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 100%;
+  margin-top: 0;
+  margin-bottom: 44px;
+}
+.Container img {
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 44px;
+}
+.Container li {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+}
+
+@media (max-width: 768px) {
+  .Container {
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 10px;
+  }
+  .Container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .Container img {
+    margin-bottom: 10px;
+  }
+}

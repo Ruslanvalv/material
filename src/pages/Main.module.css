@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+
+.Box h1 {
+  font-size: 36px;
+  line-height: 150%;
+}
+@media (max-width: 1050px) {
+  .Main {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 768px) {
+  .Content {
+    flex-direction: column;
+    height: inherit;
+    margin-bottom: 20px;
+  }
+  .PokemonSelect {
+    margin-bottom: 15px;
+  }
+}
